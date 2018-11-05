@@ -163,8 +163,8 @@ for i in range(1, 11):
     8 coins flipped, probability of success: 9.8000%
     9 coins flipped, probability of success: 9.8903%
     10 coins flipped, probability of success: 9.9385%
-    
 
-# Conclusion
+
+## Summary
 
 In this lesson, we learned all about the **_Negative Binomial Distribution_**, as well as related concepts such as **_Negative Binomial Trials_** and **_Negative Binomial Probability_**.  
