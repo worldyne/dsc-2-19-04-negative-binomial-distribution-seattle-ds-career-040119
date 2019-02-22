@@ -147,22 +147,22 @@ The following sample code is provided in the documentation to demonstrate how to
 ```python
 import numpy as np
 
-s = np.random.negative_binomial(2, 0.5, 100000)
+s = np.random.negative_binomial(1, 0.1, 100000)
 for i in range(1, 11):
     probability = sum(s<i) / 1000000
-    print("{} coins flipped, probability of success: {:.4f}%".format(i, probability * 100))
+    print("{} wells drilled, probability of success: {:.4f}%".format(i, probability * 100))
 ```
 
-    1 coins flipped, probability of success: 2.5001%
-    2 coins flipped, probability of success: 5.0050%
-    3 coins flipped, probability of success: 6.8566%
-    4 coins flipped, probability of success: 8.1172%
-    5 coins flipped, probability of success: 8.9003%
-    6 coins flipped, probability of success: 9.3706%
-    7 coins flipped, probability of success: 9.6411%
-    8 coins flipped, probability of success: 9.8000%
-    9 coins flipped, probability of success: 9.8903%
-    10 coins flipped, probability of success: 9.9385%
+    1 wells drilled, probability of success: 0.9934%
+    2 wells drilled, probability of success: 1.9007%
+    3 wells drilled, probability of success: 2.7131%
+    4 wells drilled, probability of success: 3.4476%
+    5 wells drilled, probability of success: 4.1028%
+    6 wells drilled, probability of success: 4.7032%
+    7 wells drilled, probability of success: 5.2279%
+    8 wells drilled, probability of success: 5.7135%
+    9 wells drilled, probability of success: 6.1398%
+    10 wells drilled, probability of success: 6.5318%
 
 
 ## Summary
